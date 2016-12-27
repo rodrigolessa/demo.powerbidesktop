@@ -1,0 +1,75 @@
+{
+	"build": "13.0.1100.210",
+	"version": "0.4.3",
+	"author": {
+		"name": "Microsoft",
+		"email": "pbicvsupport@microsoft.com"
+	},
+	"visual": {
+		"name": "Gantt",
+		"version": "0.4.3",
+		"displayName": "Gantt",
+		"guid": "Gantt1448688115699",
+		"description": "A Gantt chart is a type of bar chart which illustrates a project timeline or schedule. The Gantt Chart visual shows the Tasks, Start Dates, Durations, % Complete, and Resources for a project. The Gantt Chart visual can be used to show current schedule status using percent-complete shadings and a vertical \"TODAY\" line. The Legend may be used to group or filter tasks based upon data values.",
+		"supportUrl": "http://community.powerbi.com",
+		"gitHubUrl": "https://github.com/Microsoft/PowerBI-visuals"
+	},
+	"resources": [
+		{
+			"resourceId": "rId0",
+			"sourceType": 5,
+			"file": "resources/Gantt.ts"
+		},
+		{
+			"resourceId": "rId1",
+			"sourceType": 0,
+			"file": "resources/Gantt.js"
+		},
+		{
+			"resourceId": "rId2",
+			"sourceType": 1,
+			"file": "resources/Gantt.css"
+		},
+		{
+			"resourceId": "rId3",
+			"sourceType": 3,
+			"file": "resources/icon.svg"
+		},
+		{
+			"resourceId": "rId4",
+			"sourceType": 6,
+			"file": "resources/thumb.png"
+		},
+		{
+			"resourceId": "rId5",
+			"sourceType": 2,
+			"file": "resources/gantt.png"
+		}
+	],
+	"images": {
+		"icon": {
+			"resourceId": "rId3"
+		},
+		"screenshots": [
+			{
+				"resourceId": "rId5"
+			}
+		],
+		"thumbnail": {
+			"resourceId": "rId4"
+		}
+	},
+	"code": {
+		"typeScript": {
+			"resourceId": "rId0"
+		},
+		"javaScript": {
+			"resourceId": "rId1"
+		},
+		"css": {
+			"resourceId": "rId2"
+		}
+	},
+	"licenseTerms": "http://go.microsoft.com/fwlink/?LinkID=627540",
+	"privacyTerms": "http://go.microsoft.com/fwlink/?LinkID=627541"
+}
